@@ -2,9 +2,7 @@
 #include <iterator>
 #include <utility>
 
-#include <iostream> //DEBUG
-
-//Поддержка STL контейнеров, мин. требование для итераторов - Biderectional
+//Full support for biderectional iterators(STL containers)
 template <class Iter>
 void insertion_sort(Iter beg, Iter end) {
 	if (std::distance(beg, end) <= 1)
