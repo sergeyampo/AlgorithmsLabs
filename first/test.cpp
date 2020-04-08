@@ -46,6 +46,7 @@ int main() {
 		LOG_DURATION("Insertion sort for 7500 elements");
 		insertion_sort(begin(vec_t), end(vec_t));
 	}
+
 	
 	return 0;
 }
